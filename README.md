@@ -20,19 +20,23 @@ Make sure you have the following installed:
 
 ### 1. Clone the repository
 
-
+```bash
 git clone https://github.com/your-username/counter-redis-app.git
 cd counter-redis-app
+```
 
 ### 2. Build and Run the Application
+```bash
 Use Docker Compose to build the services and start the application:
 docker compose up &
-
+```
 ### 3.  Access the Application
+```bash
 http://localhost:5000
-
+```
 ### 4. Stop the Application
+```bash
 To stop the application, press Ctrl+C in the terminal where docker compose up is running. To remove the containers, networks, (but not images and volumes), use:
 $ docker compose down
-
+```
 
